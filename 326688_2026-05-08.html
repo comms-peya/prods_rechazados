@@ -3,24 +3,20 @@
 <meta charset="UTF-8">
 <style>
   body{font-family:'Segoe UI', sans-serif; padding:30px; color:#333; line-height:1.6;}
-  .header{border-bottom:4px solid #F7AD19; padding-bottom:15px; margin-bottom:25px; display: flex; align-items: center;}
-  .logo{height: 35px; margin-right: 20px;}
+  .header{border-bottom:4px solid #ed2f42; padding-bottom:15px; margin-bottom:25px;}
   .card{background:#fff4e5; padding:20px; border-radius:10px; border:1px solid #ffd8a8; margin-bottom:25px;}
   table{border-collapse:collapse; width:100%; font-size:12px;}
   th{background:#333; color:white; padding:12px; text-align:left;}
   td{padding:10px; border:1px solid #eee;}
   tr:nth-child(even){background:#fafafa;}
-  .alert-box{background:#e02b2b; color:white; padding:5px 10px; border-radius:5px; font-size:12px; font-weight:bold;}
+  .alert-box{background:#ed2f42; color:white; padding:5px 10px; border-radius:5px; font-size:12px; font-weight:bold;}
 </style>
 </head>
 <body>
 
 <div class="header">
-  <img src="https://images.deliveryhero.io/image/pedidosya/home/logo-peya-rojo.png" alt="PedidosYa" class="logo">
-  <div>
     <h1 style="margin:0; color:#333; font-size: 24px;">Reporte de pedidos rechazados</h1>
-    <p style="margin:2px 0 0 0; color:#666; font-size: 14px;"><b>Farmacia Sudamericana</b> (ID: 326688) | <span class="alert-box">ACCIÓN REQUERIDA</span></p>
-  </div>
+    <p style="margin:5px 0 0 0; color:#666; font-size: 14px;"><b>Farmacia Sudamericana</b> (ID: 326688) | <span class="alert-box">ACCIÓN REQUERIDA</span></p>
 </div>
 
 <div class="card">
@@ -31,7 +27,7 @@
 
         <div style="text-align: center; margin: 30px 0;">
           <a href="https://youtube.com/shorts/Z3vJwMMSS6s?si=P6UeOq_wjNj9Tvot" 
-             style="background-color: #e02b2b; color: white; padding: 15px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block;">
+             style="background-color: #ed2f42; color: white; padding: 15px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block;">
              Click acá para ver el video
           </a>
           <p style="font-size: 13px; color: #666; margin-top: 10px;">Mirá este tutorial para gestionar tu stock correctamente</p>
@@ -42,6 +38,7 @@
   <thead>
     <tr>
       <th>Barcode</th>
+      <th>SKU</th>
       <th>Producto</th>
       <th style="text-align:center;">Órdenes involucradas</th>
       <th style="text-align:center;">Unidades rechazadas</th>
@@ -52,143 +49,163 @@
     
       <tr>
         <td>'08710103917670</td>
+        <td>8710103917670</td>
         <td>Cuchilla Oneblade Phillips 2 U.</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 34,650</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 34,650</td>
       </tr>
       <tr>
         <td>'08710103917656</td>
+        <td>8710103917656</td>
         <td>Cuchilla Oneblade Phillips 1 U.</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 24,310</td>
-      </tr>
-      <tr>
-        <td>'00070942005197</td>
-        <td>Cinta Gum Dental 40 m 1 Unidad</td>
-        <td style="text-align:center;">1</td>
-        <td style="text-align:center;">2</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 18,480</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 24,310</td>
       </tr>
       <tr>
         <td>'00070942005210</td>
+        <td>70942005210</td>
         <td>Hilo Dental Gum Doble Defensa 35 m</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">2</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 18,480</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 18,480</td>
+      </tr>
+      <tr>
+        <td>'00070942005197</td>
+        <td>70942005197</td>
+        <td>Cinta Gum Dental 40 m 1 Unidad</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:center;">2</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 18,480</td>
       </tr>
       <tr>
         <td>'07501056330309</td>
+        <td>7501056330309</td>
         <td>Crema Pond's Clarant B3 Piel Grasa 100 g</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">2</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 14,960</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 14,960</td>
       </tr>
       <tr>
         <td>'00070942001601</td>
+        <td>70942001601</td>
         <td>Palillos Interdentales Gum Soft-Picks Advanced 36 Unidades</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 10,890</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 10,890</td>
       </tr>
       <tr>
         <td>'07791293047522</td>
+        <td>7791293047522</td>
         <td>Acondicionador Dove Regeneración Extrema 400 ml</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 10,670</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 10,670</td>
       </tr>
       <tr>
         <td>'00070942122863</td>
+        <td>70942122863</td>
         <td>Cepillo Interdental Gum Soft-picks 40 Unidades</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 9,240</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 9,240</td>
       </tr>
       <tr>
         <td>'07798140258636</td>
+        <td>7798140258636</td>
         <td>Paracetamol Plus Rápida Acción Tafirol 16 Unidades</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 9,020</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 9,020</td>
       </tr>
       <tr>
         <td>'07795379100545</td>
+        <td>7795379100545</td>
         <td>Natulax Plus 40 Unidades</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 7,920</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 7,920</td>
       </tr>
       <tr>
         <td>'07509546690315</td>
+        <td>7509546690315</td>
         <td>Cepillo Dental Colgate Ma1 White Carbón 2 Uni</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 7,150</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 7,150</td>
       </tr>
       <tr>
         <td>'07896015591106</td>
+        <td>7896015591106</td>
         <td>Pasta De Dientes Sensodyne Limpieza Profunda 90 g</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 7,040</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 7,040</td>
       </tr>
       <tr>
         <td>'07509546686042</td>
+        <td>7509546686042</td>
         <td>Pasta Dental Colgate Total Carbón Activado Con Flúor 90 g</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 6,820</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 6,820</td>
       </tr>
       <tr>
         <td>'00000075046330</td>
+        <td>75046330</td>
         <td>Vick Vaporup Unguentolata 12 Gr. (Aceite De Eucalipto-Alcanfor-Mentol) 12 g</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 6,600</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 6,600</td>
       </tr>
       <tr>
         <td>'07793008005698</td>
+        <td>7793008005698</td>
         <td>Issue Flowpack 9.1 Rubio Ccce</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 6,270</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 6,270</td>
       </tr>
       <tr>
         <td>'07795379101061</td>
+        <td>7795379101061</td>
         <td>Suplemento Dietario Natufarma Levadura De Cerveza 40 Comprimidos</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 5,390</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 5,390</td>
       </tr>
       <tr>
         <td>'07792412000367</td>
+        <td>7798140257349</td>
         <td>Paracetamol Tafirol 500 mg 10 Unidades</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 3,080</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 3,080</td>
       </tr>
       <tr>
         <td>'07790895650840</td>
+        <td>7790895650840</td>
         <td>Gaseosa Coca Cola Zero 600 ml</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 2,420</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 2,420</td>
       </tr>
       <tr>
         <td>'00000077969101</td>
+        <td>77969101</td>
         <td>Chicle Beldent Globo Qi Poseidón 10 g</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 1,210</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 1,210</td>
       </tr>
       <tr>
         <td>'07790580602000</td>
+        <td>7790580602000</td>
         <td>Gomitas Mogul Frutales 35 g</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 660</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 660</td>
       </tr>
   </tbody>
 </table>
