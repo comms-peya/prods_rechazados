@@ -3,24 +3,20 @@
 <meta charset="UTF-8">
 <style>
   body{font-family:'Segoe UI', sans-serif; padding:30px; color:#333; line-height:1.6;}
-  .header{border-bottom:4px solid #F7AD19; padding-bottom:15px; margin-bottom:25px; display: flex; align-items: center;}
-  .logo{height: 35px; margin-right: 20px;}
+  .header{border-bottom:4px solid #ed2f42; padding-bottom:15px; margin-bottom:25px;}
   .card{background:#fff4e5; padding:20px; border-radius:10px; border:1px solid #ffd8a8; margin-bottom:25px;}
   table{border-collapse:collapse; width:100%; font-size:12px;}
   th{background:#333; color:white; padding:12px; text-align:left;}
   td{padding:10px; border:1px solid #eee;}
   tr:nth-child(even){background:#fafafa;}
-  .alert-box{background:#e02b2b; color:white; padding:5px 10px; border-radius:5px; font-size:12px; font-weight:bold;}
+  .alert-box{background:#ed2f42; color:white; padding:5px 10px; border-radius:5px; font-size:12px; font-weight:bold;}
 </style>
 </head>
 <body>
 
 <div class="header">
-  <img src="https://images.deliveryhero.io/image/pedidosya/home/logo-peya-rojo.png" alt="PedidosYa" class="logo">
-  <div>
     <h1 style="margin:0; color:#333; font-size: 24px;">Reporte de pedidos rechazados</h1>
-    <p style="margin:2px 0 0 0; color:#666; font-size: 14px;"><b>Er Farmacia</b> (ID: 195016) | <span class="alert-box">ACCIÓN REQUERIDA</span></p>
-  </div>
+    <p style="margin:5px 0 0 0; color:#666; font-size: 14px;"><b>Er Farmacia</b> (ID: 195016) | <span class="alert-box">ACCIÓN REQUERIDA</span></p>
 </div>
 
 <div class="card">
@@ -31,7 +27,7 @@
 
         <div style="text-align: center; margin: 30px 0;">
           <a href="https://youtube.com/shorts/Z3vJwMMSS6s?si=P6UeOq_wjNj9Tvot" 
-             style="background-color: #e02b2b; color: white; padding: 15px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block;">
+             style="background-color: #ed2f42; color: white; padding: 15px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block;">
              Click acá para ver el video
           </a>
           <p style="font-size: 13px; color: #666; margin-top: 10px;">Mirá este tutorial para gestionar tu stock correctamente</p>
@@ -42,6 +38,7 @@
   <thead>
     <tr>
       <th>Barcode</th>
+      <th>SKU</th>
       <th>Producto</th>
       <th style="text-align:center;">Órdenes involucradas</th>
       <th style="text-align:center;">Unidades rechazadas</th>
@@ -52,66 +49,75 @@
     
       <tr>
         <td>'07702057700829</td>
+        <td>7702057700829</td>
         <td>Óvulos Vaginales Mk Clindamicina Y Ketoconazol (100 mg/400 mg) 7 Unidades</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 1,155</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 1,155</td>
       </tr>
       <tr>
         <td>'00074312017070</td>
+        <td>074312017070</td>
         <td>Vitamina C Nature's Bounty (1000 mg) 100 Cápsulas</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 1,073</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 1,073</td>
       </tr>
       <tr>
         <td>'07468438463768</td>
+        <td>7468438463768</td>
         <td>Bergeron B Tab 500mg Ibero C/U A4</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">2</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 772</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 772</td>
       </tr>
       <tr>
         <td>'05711953016196</td>
+        <td>5711953016196</td>
         <td>Formula Infantil Milex M2 Blue 400g</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 578</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 578</td>
       </tr>
       <tr>
         <td>'07501059237377</td>
+        <td>7501059237377</td>
         <td>Fórmula Láctea Infantil Nestogeno 1 400 g</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 517</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 517</td>
       </tr>
       <tr>
         <td>'07460347602443</td>
+        <td>7460347602443</td>
         <td>Sumigran Plus 100 Tabletas</td>
         <td style="text-align:center;">2</td>
         <td style="text-align:center;">10</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 440</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 440</td>
       </tr>
       <tr>
         <td>'07702031642718</td>
+        <td>7702031642718</td>
         <td>Enjuague Bucal Listerine Original 250 ml</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 330</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 330</td>
       </tr>
       <tr>
         <td>'07460489000862</td>
+        <td>7460489000862</td>
         <td>Leche Magnesia Phil. X 360 Ml</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 221</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 221</td>
       </tr>
       <tr>
         <td>'07509546003108</td>
+        <td>7509546003108</td>
         <td>Pasta Dental Colgate Triple Acción Menta Original 50 ml</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 127</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 127</td>
       </tr>
   </tbody>
 </table>
