@@ -3,9 +3,9 @@
 <meta charset="UTF-8">
 <style>
   body{font-family:'Segoe UI', sans-serif; padding:30px; color:#333; line-height:1.6;}
-  .header{border-bottom:4px solid #F7AD19; padding-bottom:15px; margin-bottom:20px;}
+  .header{border-bottom:4px solid #F7AD19; padding-bottom:15px; margin-bottom:25px;}
   .card{background:#fff4e5; padding:20px; border-radius:10px; border:1px solid #ffd8a8; margin-bottom:25px;}
-  table{border-collapse:collapse; width:100%; font-size:13px;}
+  table{border-collapse:collapse; width:100%; font-size:12px;}
   th{background:#333; color:white; padding:12px; text-align:left;}
   td{padding:10px; border:1px solid #eee;}
   tr:nth-child(even){background:#fafafa;}
@@ -21,536 +21,65 @@
 
 <div class="card">
   <h3 style="margin-top:0; color:#d9480f;">¡Atención! Tu local está rechazando pedidos</h3>
-  <p style="margin-bottom:0;">Detectamos que has perdido ventas debido a <b>falta de stock</b>. Es fundamental que revises la disponibilidad de los siguientes productos en tu plataforma para evitar cancelaciones de pedidos y pérdida de ingresos.</p>
+  <p style="margin-bottom:0;">Detectamos que has perdido ventas debido a <b>falta de stock</b>. Es fundamental que revises la disponibilidad de los siguientes productos para evitar cancelaciones de pedidos y pérdida de ingresos.</p>
 </div>
 
-<h3>Productos que causaron rechazos:</h3>
+
+        <div style="text-align: center; margin: 30px 0;">
+          <a href="https://youtube.com/shorts/Z3vJwMMSS6s?si=P6UeOq_wjNj9Tvot" 
+             style="background-color: #e02b2b; color: white; padding: 15px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block;">
+             Click acá para ver el video
+          </a>
+          <p style="font-size: 13px; color: #666; margin-top: 10px;">Mirá este tutorial para gestionar tu stock correctamente</p>
+        </div>
+
+<h3>Detalle de productos rechazados:</h3>
 <table>
   <thead>
     <tr>
       <th>Barcode</th>
-      <th>Nombre del Producto</th>
-      <th>Pedidos Perdidos</th>
+      <th>Producto</th>
+      <th style="text-align:center;">Órdenes involucradas</th>
+      <th style="text-align:center;">Unidades rechazadas</th>
+      <th style="text-align:right;">Facturación perdida</th>
     </tr>
   </thead>
   <tbody>
     
       <tr>
-        <td>S/N</td>
-        <td>Té Antigripal Algho Suiphar Sabor Naranja Venta Al Detalle Por 1 Sobre</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">8</td>
-      </tr>
-      <tr>
-        <td>'07464030842055</td>
-        <td>Antigripal Algho 2 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">6</td>
-      </tr>
-      <tr>
-        <td>'07451079003417</td>
-        <td>Analgésico Winasorb Ultra 104 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">5</td>
-      </tr>
-      <tr>
-        <td>'00650240063220</td>
-        <td>Bebida Hidratante Suerox Manzana 630 ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">5</td>
-      </tr>
-      <tr>
-        <td>'07460577096906</td>
-        <td>Té Broncochem 25 Sobres</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">4</td>
-      </tr>
-      <tr>
-        <td>'06901046602347</td>
-        <td>Prueba De Embarazo Exam-E 1 Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">4</td>
-      </tr>
-      <tr>
-        <td>'07464030842260</td>
-        <td>Algho Sinus Caps Suiphar C/S K2 100 Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">4</td>
-      </tr>
-      <tr>
-        <td>S/N</td>
-        <td>Aciclovir (800 mg) If Venta Al Detalle Por 1 Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">4</td>
-      </tr>
-      <tr>
-        <td>'07702027040252</td>
-        <td>Toallas Higiénicas Nosotras Buenas Noches Natural 10 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">3</td>
-      </tr>
-      <tr>
-        <td>'07460577051288</td>
-        <td>Antigripal Broncochem 50 Sobres (2 Tabletas)</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">3</td>
-      </tr>
-      <tr>
-        <td>'07410002802701</td>
-        <td>Loratadina Mk 10Mg 32 Tabletas</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">3</td>
-      </tr>
-      <tr>
-        <td>'07464030842420</td>
-        <td>Antigripal Algho Ultra Sobres 2 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">3</td>
-      </tr>
-      <tr>
-        <td>'07460347600173</td>
-        <td>Jarabe Sinedol Acetaminofén Sabor Uva Sin Azúcar 60 ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">2</td>
-      </tr>
-      <tr>
-        <td>'07468999190639</td>
-        <td>Antigripal Resfridol 50 Cápsulas</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">2</td>
-      </tr>
-      <tr>
-        <td>'06953102620802</td>
-        <td>GASA ESTERIL 4X4 C/U L3</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">2</td>
-      </tr>
-      <tr>
-        <td>'00650240063237</td>
-        <td>Bebida Rehidratante Suerox Naranja-Mandarina 630 ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">2</td>
-      </tr>
-      <tr>
-        <td>'07702418004818</td>
-        <td>Cebion Masticable Naranja Sobrex12 Tab</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">2</td>
-      </tr>
-      <tr>
         <td>'03582910009900</td>
         <td>Suspensión Oral Sanofi Enterogermina 5 ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">2</td>
-      </tr>
-      <tr>
-        <td>S/N</td>
-        <td>Sertal Compuesto Megalabs Venta Al Detalle  1 Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">2</td>
-      </tr>
-      <tr>
-        <td>S/N</td>
-        <td>Acromona Ovulos Venta Al Detalle Por 1 Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">2</td>
-      </tr>
-      <tr>
-        <td>'07460111102568</td>
-        <td>Jugo Rica De Naranja 200 ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">2</td>
-      </tr>
-      <tr>
-        <td>'00769229011319</td>
-        <td>Crema Tópica Aciclovir Calox Labial 5 g</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">2</td>
-      </tr>
-      <tr>
-        <td>S/N</td>
-        <td>Fluimucil (600 mg) Caps Venta Al Detalle Por 1 Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">2</td>
-      </tr>
-      <tr>
-        <td>'07466107585469</td>
-        <td>Pain Max Ultra X50 Sobres</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">2</td>
-      </tr>
-      <tr>
-        <td>'07702027435508</td>
-        <td>Tampones Con Aplicador Nosotras Regular 8Und</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">2</td>
-      </tr>
-      <tr>
-        <td>'00650240063244</td>
-        <td>Suero Suerox Mora Azul 630 ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">2</td>
-      </tr>
-      <tr>
-        <td>'00016000264694</td>
-        <td>Galletas Nature Valley Oats & Honey 42 g</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">2</td>
-      </tr>
-      <tr>
-        <td>'07501007532363</td>
-        <td>Dramamine 50 mg 24 Tabletas</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">2</td>
-      </tr>
-      <tr>
-        <td>'07406048002113</td>
-        <td>Solución Oral Enantyum Menarini 25 mg 10 ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">2</td>
-      </tr>
-      <tr>
-        <td>'00049000057638</td>
-        <td>Refresco Coca Cola 400 ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07468438464932</td>
-        <td>Antiinflamatorio Bergeron Forte Caja 10 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07460828509032</td>
-        <td>Algodón Hidrófilo Collado 7 g</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07468318311349</td>
-        <td>Antigripal Bye Flu Multisíntomas Sobre 50 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07467557552544</td>
-        <td>Ovulos Clinvag Gefarca Caja 5 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07590002012468</td>
-        <td>Ungüento Vick Vaporub 50 g</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07468438462495</td>
-        <td>Iberlukast-L Caja 30 Tabletas</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'00751685000303</td>
-        <td>Jugo Linda De Pera 10.5 oz</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07460577018021</td>
-        <td>Antiflu-Des Forte 6 Sobres X 2 Cápsulas</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07702027499562</td>
-        <td>Toallas Femeninas Nosotras Natural Invisible 10 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07401078960051</td>
-        <td>Sargenor Forte Bebible Caja 10 Ampollas / Altian</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07468592982808</td>
-        <td>Antigripal Acrotussin-D Gotas 30Ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07415100200640</td>
-        <td>Cyclonor Inyectable 1 ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>S/N</td>
-        <td>Enake Ibero Farmacos 25 mg Venta Al Detalle Por 1 Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07460577051486</td>
-        <td>Pastillas Broncochem Tos De 6 Sobres 2 Capletas</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07460347600425</td>
-        <td>Subrox Amoxi 20 Cápsulas</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07460577051318</td>
-        <td>Jarabe Antigripal Broncochem 120 ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>S/N</td>
-        <td>Dorival Bayer Liquid Gel 200 Mg Venta Al Detalle Por 1 Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07462103030118</td>
-        <td>Talco Medicado Mexana 30 g</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>S/N</td>
-        <td>Aciclovir Labial Crema If Venta Al Detalle Por 1 Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07501033956782</td>
-        <td>Pedialyte 60 Uva 500 ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07468438461788</td>
-        <td>Aciclovir If Labial 10 g 1 Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:center;">6</td>
+        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 810</td>
       </tr>
       <tr>
         <td>'07441041702592</td>
         <td>Norgylen Gutis Via Oral Tabletas 21 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07500478001200</td>
-        <td>Galletas Gamesa Chokis Mix 93 g</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>S/N</td>
-        <td>Azibiotic 500Mg Acromax Venta Al Detalle Por 1 Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'00022600642039</td>
-        <td>Preservativo Trojan Magnum 3 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07466107585797</td>
-        <td>Cetirizina Jarabe 60Ml If C/U K5</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07501080950139</td>
-        <td>Condones Trojan Pro-Tech 3 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07460082520071</td>
-        <td>Ketoral Shampoo 100Ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07467587701431</td>
-        <td>Antibiótico Cipro Uro Euro Caja 12 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>S/N</td>
-        <td></td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07462803201122</td>
-        <td>Antidiarreico Prodom (2 mg) 50 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07466107585162</td>
-        <td>Ambroxol Jarabe 15Mg If C/U J1</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07468191033598</td>
-        <td>Jabon Clotrimazol 2% Inmenol C/U D7</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07467924550166</td>
-        <td>Urelac 10% 220 Ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07460536554676</td>
-        <td>Sinabon Fem Locion 120Ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>S/N</td>
-        <td>Diclofenac IF (50 mg) Venta Al Detalle Por 1 Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>S/N</td>
-        <td>Rosuvastatina (20 mg) If Venta Al Detalle Por Blister De 10 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'03282779035576</td>
-        <td>Agua Avene Thermale 50 ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07462803201375</td>
-        <td>Tussibron Tos Jarabe 120Ml Sin Azucar C/U J1</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>S/N</td>
-        <td>La Pela 20Mg Ethical Venta Al Detalle Por 1 Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'00070330709485</td>
-        <td>Afeitadora Bic Comfort 2 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>S/N</td>
-        <td>Ciruelax Forte Garden House Venta Al Detalle Por 1 Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07468999188902</td>
-        <td>Artran Gel Tubo 60G</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07702027419669</td>
-        <td>Toallas Nosotras Rapisec 10 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>S/N</td>
-        <td>Etiprazol Plus (20/10 Mg) Ethical Venta Al Detalle Por 1 Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>S/N</td>
-        <td>Folimen (5 mg) Comps Venta Al Detalle Por Blister De 25 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 498</td>
       </tr>
       <tr>
         <td>S/N</td>
         <td>Dolo Neurobion Merck Venta Al Detalle Por 1 Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 220</td>
       </tr>
       <tr>
-        <td>S/N</td>
-        <td>Paramox (500 mg) Venta Al Detalle Por 1 Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07501165012578</td>
-        <td>Suplemento Alimenticio En Polvo Gelicart Action 100% Colágeno Hidrolizado En Sobres (600 g) 30 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>S/N</td>
-        <td>Furosemida (40 mg) Ethical Venta Al Detalle Por 1 Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07463216200344</td>
-        <td>Jabón Oasís Avena Con Clotrímazol 90 g</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>S/N</td>
-        <td>Jeringa Megafine Hipodermica 5 ml/cc Venta Al Detalle Por 1 Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07460383820337</td>
-        <td>Alcohol Roldán Saliclico 5% 16 oz</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07460577042439</td>
-        <td>Antigripal Broncochem Contra La Tos Jarabe 120 ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'03282770207774</td>
-        <td>Gel De Limpieza Avene Cara Y Cuerpo Cleanance X 400 Ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07441041703162</td>
-        <td>Biotos Inmune 170Ml Sol</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'04005808538560</td>
-        <td>Jabón Íntimo Nivea Natural 250 ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07468999185901</td>
-        <td>Migra Cefa Pastilla 50</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07452104810345</td>
-        <td>Jeringa insulina megafine 6mm x31g 1ml paqx10</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07702027434020</td>
-        <td>Protectores Diarios Nosotras Normal 15 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>S/N</td>
-        <td>Claritromicina (500 mg) Mk Venta Al Detalle Por 1 Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07709990424676</td>
-        <td>Monurol 3G Granulado Para soluc. Oral - Sobre 3 G</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>S/N</td>
-        <td>Cetirizina  If  (10 Mg) Venta Al Detalle 1 Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>S/N</td>
-        <td>Gelnorex Vita Rangel Venta Al Detalle Por 1 Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'18901790683192</td>
-        <td>Insal Salbutamol 100Mcg Bombita Caplin C/U G2</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07467557552100</td>
-        <td>FEM 3.5 JABON LIQUIDO INTIMO 240ML GEFARCA</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'00011418225800</td>
-        <td>Vitamina Viteen Redoxon 30 Sobres x 1g</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07462103010820</td>
-        <td>Viternum Complex 150Ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07460496801476</td>
-        <td>Caribas Maduritos Col 33 g</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'00011418095663</td>
-        <td>Óvulos Vaginales 100 mg Canesten V 18 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>S/N</td>
-        <td>Ponstan Pfizer (500 Mg) Venta Al Detalle 1 Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'18901790709892</td>
-        <td>Salbutamol Aerosoll 100Mcg</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
+        <td>'07460082520071</td>
+        <td>Ketoral Shampoo 100Ml</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:center;">2</td>
+        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 4</td>
       </tr>
   </tbody>
 </table>
 
-<p style="margin-top:30px; font-size:12px; color:#999;">
+<p style="margin-top:30px; font-size:11px; color:#999;">
   Lógica aplicada: Reincidencia de rechazos en las últimas 48hs.<br>
-  Fecha del reporte: 2026-05-08
+  Sistema de recepción: Shopper RPS | Fecha del reporte: 2026-05-08
 </p>
 
 </body>
