@@ -3,9 +3,9 @@
 <meta charset="UTF-8">
 <style>
   body{font-family:'Segoe UI', sans-serif; padding:30px; color:#333; line-height:1.6;}
-  .header{border-bottom:4px solid #F7AD19; padding-bottom:15px; margin-bottom:20px;}
+  .header{border-bottom:4px solid #F7AD19; padding-bottom:15px; margin-bottom:25px;}
   .card{background:#fff4e5; padding:20px; border-radius:10px; border:1px solid #ffd8a8; margin-bottom:25px;}
-  table{border-collapse:collapse; width:100%; font-size:13px;}
+  table{border-collapse:collapse; width:100%; font-size:12px;}
   th{background:#333; color:white; padding:12px; text-align:left;}
   td{padding:10px; border:1px solid #eee;}
   tr:nth-child(even){background:#fafafa;}
@@ -21,376 +21,72 @@
 
 <div class="card">
   <h3 style="margin-top:0; color:#d9480f;">¡Atención! Tu local está rechazando pedidos</h3>
-  <p style="margin-bottom:0;">Detectamos que has perdido ventas debido a <b>falta de stock</b>. Es fundamental que revises la disponibilidad de los siguientes productos en tu plataforma para evitar cancelaciones de pedidos y pérdida de ingresos.</p>
+  <p style="margin-bottom:0;">Detectamos que has perdido ventas debido a <b>falta de stock</b>. Es fundamental que revises la disponibilidad de los siguientes productos para evitar cancelaciones de pedidos y pérdida de ingresos.</p>
 </div>
 
-<h3>Productos que causaron rechazos:</h3>
+
+        <div style="text-align: center; margin: 30px 0;">
+          <a href="https://youtube.com/shorts/Z3vJwMMSS6s?si=P6UeOq_wjNj9Tvot" 
+             style="background-color: #e02b2b; color: white; padding: 15px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block;">
+             Click acá para ver el video
+          </a>
+          <p style="font-size: 13px; color: #666; margin-top: 10px;">Mirá este tutorial para gestionar tu stock correctamente</p>
+        </div>
+
+<h3>Detalle de productos rechazados:</h3>
 <table>
   <thead>
     <tr>
       <th>Barcode</th>
-      <th>Nombre del Producto</th>
-      <th>Pedidos Perdidos</th>
+      <th>Producto</th>
+      <th style="text-align:center;">Órdenes involucradas</th>
+      <th style="text-align:center;">Unidades rechazadas</th>
+      <th style="text-align:right;">Facturación perdida</th>
     </tr>
   </thead>
   <tbody>
     
       <tr>
-        <td>'02851300114007</td>
-        <td>Panadol Antigripal Tabletas - Sobre 2 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">4</td>
-      </tr>
-      <tr>
-        <td>'02851300108006</td>
-        <td>VitaPyrena Forte Miel y Limón 5G - Sobre Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">4</td>
-      </tr>
-      <tr>
         <td>'07809604031501</td>
         <td>Pañales Huggies Dermacare Etapa 4/XG 38 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">3</td>
-      </tr>
-      <tr>
-        <td>'02851300075001</td>
-        <td>Apronax 550 Mg - Pastilla Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">2</td>
-      </tr>
-      <tr>
-        <td>'07702605151660</td>
-        <td>Paracetamol 500 Mg Blister X 10 U</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">2</td>
-      </tr>
-      <tr>
-        <td>'07500435120067</td>
-        <td>Prueba De Embarazo Clearblue Plus</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">2</td>
-      </tr>
-      <tr>
-        <td>S/N</td>
-        <td>Discos Desmaquillantes - Bolsa 70 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">2</td>
-      </tr>
-      <tr>
-        <td>'07758996000360</td>
-        <td>Pastilla Del Día Siguiente Vika 1.5Mg Caja 1Un</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">2</td>
-      </tr>
-      <tr>
-        <td>'02851300082009</td>
-        <td>Caramelos Multibiotico Naranja - Sobre Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">2</td>
-      </tr>
-      <tr>
-        <td>'02851300109003</td>
-        <td>Caramelos Multibiotico Mentol - Sobre Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">2</td>
-      </tr>
-      <tr>
-        <td>'06921875010663</td>
-        <td>Cápsulas Amoxicilina 500 Mg Blíster 10 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">2</td>
-      </tr>
-      <tr>
-        <td>'07750670010238</td>
-        <td>Bebida Rehidratante Sporade Tropical 500 ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'02851303811422</td>
-        <td>Antibacteriano 800 Mg /160Mg Sulfa - Maxx Forte Tabletas 10 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:center;">2</td>
+        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 111.8</td>
       </tr>
       <tr>
         <td>'03337872412998</td>
         <td>Cicaplast Baume 40 ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'02851300111006</td>
-        <td>Tapsin Migraña - Sobre 2 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07809604031525</td>
-        <td>Pañales Huggies Dermacare Etapa 1/P 68 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07791293044057</td>
-        <td>Antitranspirante Axe En Aerosol Epic Fresh 152 ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07702026149031</td>
-        <td>Toallas Higiénica Nosotras Buenas Noches Max 30 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 72.5</td>
       </tr>
       <tr>
         <td>S/N</td>
         <td>Reumafrost Nf - Frasco 60 G</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 14.9</td>
       </tr>
       <tr>
-        <td>'02851303814423</td>
-        <td>Metamizol Sódico500Mg Repriman Tabletas 10 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
+        <td>'02851300114007</td>
+        <td>Panadol Antigripal Tabletas - Sobre 2 Unidades</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:center;">2</td>
+        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 5.5</td>
       </tr>
       <tr>
-        <td>'08470007272540</td>
-        <td>Slinda 4mg Comprimido recubierto</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'05099864015362</td>
-        <td>Fórmula Similac 1 Hmo Lata 350 g</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07702010920820</td>
-        <td>Jabón Antibacterial Protex Limpieza Profunda 3 x 110 g</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07702027494499</td>
-        <td>Toallas Higiénicas Nosotras Natural Alas Tela Gel 10 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07861073904281</td>
-        <td>Belara Cd 2-0.03Mg Cjax28 Tab Rec</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07750304005920</td>
-        <td>Fluconazol 150Mg - Cja 2 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07501159731232</td>
-        <td>Preservativos Durex Sensitivo Delgado 3 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07702031132844</td>
-        <td>Aceite Para Bebé Johnson's Baby Original 50 ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07702018072439</td>
-        <td>Máquina de Afeitar Venus Desechable Simply 3 1 Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07751204000725</td>
-        <td>Jeringa Descartable 3Ml/Cc 5 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07750629000914</td>
-        <td>Preservativo Piel Sensitivo 3 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07791293043265</td>
-        <td>Antitranspirante Dove Men En Aerosol Invisible-Dry 150 ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07750215002629</td>
-        <td>Loratadina 10 mg</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07752690002248</td>
-        <td>Alcohol Gel Natural Asea 90 G</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07800004001903</td>
-        <td>Tapsin Plus Caliente Noche Sobre 1 Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'02851300100000</td>
-        <td>Aspirina 100 Prevención Cardiovascular 100 Mg - Pastilla Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'04005800036743</td>
-        <td>Shampoo Eucerin Dermocapillaire Ph5 250 ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07702626214856</td>
-        <td>Preservativos Durex Real Feel 3 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07702425808058</td>
-        <td>Tampones Kotex Digital Super 12 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07500435120050</td>
-        <td>Prueba De Embarazo Clearblue Digital Con Indicador De Semanas 1 Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07702027041587</td>
-        <td>Toallas Higiénicas Nosotras Buenas Noches Invisible 10 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'02851300112003</td>
-        <td>Panadol Adultos 500 Mg - Sobre 2 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07501059232884</td>
-        <td>Alimento Complementario Nan Optipro 3 800 g</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'08852961011029</td>
-        <td>Lubricante Intimo Five Lube Tubo 120 ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'02851303798426</td>
-        <td>Dexametasona4Mg Farmindustria Tabletas 10 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'02851300101007</td>
-        <td>Dulcolax 5 Mg - Pastilla Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07896116881014</td>
-        <td>Anticonceptivo Bayer Healthcare P Microgynon 21 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'02851300107009</td>
-        <td>Hepabionta Forte - Pastilla Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>S/N</td>
-        <td>Jabón de Glicerina Floresta Natural - Barra 100 G</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07753954002592</td>
-        <td>Canesten 1% Crema - Tubo 20 G</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07750215728321</td>
-        <td>Complejo B Laboratorios Portugal Jarabe 120 mililitros</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07759307004046</td>
-        <td>Laxal 3.33G/5Ml Suspension Oral - Frasco 180ML</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07751204000312</td>
-        <td>Esparadrapo De Seda Medical 4.5M X 2.5Cm Caja 1 Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'02851303797429</td>
-        <td>Amoxicilina500Mg Amoximass Tabletas 10 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07750942002251</td>
-        <td>Tosalbron 28 Mg/5 Ml Jarabe, Pediátrico - Frasco 100 Ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07702027494512</td>
-        <td>Toallas Higiénicas Nosotras Natural Invisible Clásica 10 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07806500731191</td>
-        <td>Toallitas Húmedas Babysec Premium 99% Agua Pack 135 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'02851303790017</td>
-        <td>Micropore 25 Mm X 9.1 3M 1 Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07501159033749</td>
-        <td>Gel Lubricante Durex Cereza De Pasión 50 g</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07750942008611</td>
-        <td>Tosalbron 50Mg/5Ml Jarb - Frasco 100 Ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'05997001368459</td>
-        <td>Postinor Caja Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07753820001650</td>
-        <td>Suero Fisiológico Pharmagen 100 Ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'08470001556349</td>
-        <td>Shampoo Isdin Nutradeica Anticaspa Grasa 200 ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07506205804847</td>
-        <td>Fórmula Especializada Nutramigen Premium 1 357 g</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07759185004831</td>
-        <td>Pañales Para Bebé Babysec Super Premium Talla P 56 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07753464000118</td>
-        <td>Agua De Azahar Alkofarma Solución Oral Frasco 120 Ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07758996000476</td>
-        <td>Porte 50Mg - Cja 1Un</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07756050000301</td>
-        <td>Gel Lubricante Durex Naturals 100 ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07441026001283</td>
-        <td>Panadol 100Mg/Ml Solución Oral Gotas - Frasco 15 Ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'02851300110009</td>
-        <td>Bismutol 262Mg Tabletas Masticables - Sobre 2 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
+        <td>'02851300108006</td>
+        <td>VitaPyrena Forte Miel y Limón 5G - Sobre Unidad</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 2.53</td>
       </tr>
   </tbody>
 </table>
 
-<p style="margin-top:30px; font-size:12px; color:#999;">
+<p style="margin-top:30px; font-size:11px; color:#999;">
   Lógica aplicada: Reincidencia de rechazos en las últimas 48hs.<br>
-  Fecha del reporte: 2026-05-08
+  Sistema de recepción: Shopper RPS | Fecha del reporte: 2026-05-08
 </p>
 
 </body>
