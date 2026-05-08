@@ -3,24 +3,20 @@
 <meta charset="UTF-8">
 <style>
   body{font-family:'Segoe UI', sans-serif; padding:30px; color:#333; line-height:1.6;}
-  .header{border-bottom:4px solid #F7AD19; padding-bottom:15px; margin-bottom:25px; display: flex; align-items: center;}
-  .logo{height: 35px; margin-right: 20px;}
+  .header{border-bottom:4px solid #ed2f42; padding-bottom:15px; margin-bottom:25px;}
   .card{background:#fff4e5; padding:20px; border-radius:10px; border:1px solid #ffd8a8; margin-bottom:25px;}
   table{border-collapse:collapse; width:100%; font-size:12px;}
   th{background:#333; color:white; padding:12px; text-align:left;}
   td{padding:10px; border:1px solid #eee;}
   tr:nth-child(even){background:#fafafa;}
-  .alert-box{background:#e02b2b; color:white; padding:5px 10px; border-radius:5px; font-size:12px; font-weight:bold;}
+  .alert-box{background:#ed2f42; color:white; padding:5px 10px; border-radius:5px; font-size:12px; font-weight:bold;}
 </style>
 </head>
 <body>
 
 <div class="header">
-  <img src="https://images.deliveryhero.io/image/pedidosya/home/logo-peya-rojo.png" alt="PedidosYa" class="logo">
-  <div>
     <h1 style="margin:0; color:#333; font-size: 24px;">Reporte de pedidos rechazados</h1>
-    <p style="margin:2px 0 0 0; color:#666; font-size: 14px;"><b>Hipertiendas Zaglul Higuey</b> (ID: 230140) | <span class="alert-box">ACCIÓN REQUERIDA</span></p>
-  </div>
+    <p style="margin:5px 0 0 0; color:#666; font-size: 14px;"><b>Hipertiendas Zaglul Higuey</b> (ID: 230140) | <span class="alert-box">ACCIÓN REQUERIDA</span></p>
 </div>
 
 <div class="card">
@@ -31,7 +27,7 @@
 
         <div style="text-align: center; margin: 30px 0;">
           <a href="https://youtube.com/shorts/Z3vJwMMSS6s?si=P6UeOq_wjNj9Tvot" 
-             style="background-color: #e02b2b; color: white; padding: 15px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block;">
+             style="background-color: #ed2f42; color: white; padding: 15px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block;">
              Click acá para ver el video
           </a>
           <p style="font-size: 13px; color: #666; margin-top: 10px;">Mirá este tutorial para gestionar tu stock correctamente</p>
@@ -42,6 +38,7 @@
   <thead>
     <tr>
       <th>Barcode</th>
+      <th>SKU</th>
       <th>Producto</th>
       <th style="text-align:center;">Órdenes involucradas</th>
       <th style="text-align:center;">Unidades rechazadas</th>
@@ -52,66 +49,75 @@
     
       <tr>
         <td>'00070491105003</td>
+        <td>ART008436</td>
         <td>Cóctel Master Of Mixes Cosmopolitan Martini 1 L</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 405</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 405</td>
       </tr>
       <tr>
         <td>'07441008100102</td>
+        <td>ART017381</td>
         <td>Pañal Kimbies P4 Mega 38 unidades</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 340</td>
-      </tr>
-      <tr>
-        <td>'07463271700124</td>
-        <td>Dulces Jomisardys Caramelos 9 oz</td>
-        <td style="text-align:center;">1</td>
-        <td style="text-align:center;">3</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 339</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 340</td>
       </tr>
       <tr>
         <td>'07463271700049</td>
+        <td>ART017649</td>
         <td>Dulces Jomisardys Caramelos 8 oz</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">3</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 339</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 339</td>
+      </tr>
+      <tr>
+        <td>'07463271700124</td>
+        <td>ART017648</td>
+        <td>Dulces Jomisardys Caramelos 9 oz</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:center;">3</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 339</td>
       </tr>
       <tr>
         <td>'07461323129619</td>
+        <td>ART007424</td>
         <td>Ron Barceló Blanco 350 ml</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 307</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 307</td>
       </tr>
       <tr>
         <td>'07466559628011</td>
+        <td>ART011483</td>
         <td>Paquete De Fresas Frescas Purama Medianas</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 220</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 220</td>
       </tr>
       <tr>
         <td>'07460577051318</td>
+        <td>7460577051318</td>
         <td>Jarabe Antigripal Broncochem 120 ml</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 205</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 205</td>
       </tr>
       <tr>
         <td>'00781974001346</td>
+        <td>ART025965</td>
         <td>Alimento Para Perro Rufo Pro Cachorro 2.2 lb</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 153</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 153</td>
       </tr>
       <tr>
         <td>'00041331021593</td>
+        <td>ART008253</td>
         <td>Piña Colada Goya 355 ml</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 90</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 90</td>
       </tr>
   </tbody>
 </table>
