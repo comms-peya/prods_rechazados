@@ -3,24 +3,20 @@
 <meta charset="UTF-8">
 <style>
   body{font-family:'Segoe UI', sans-serif; padding:30px; color:#333; line-height:1.6;}
-  .header{border-bottom:4px solid #F7AD19; padding-bottom:15px; margin-bottom:25px; display: flex; align-items: center;}
-  .logo{height: 35px; margin-right: 20px;}
+  .header{border-bottom:4px solid #ed2f42; padding-bottom:15px; margin-bottom:25px;}
   .card{background:#fff4e5; padding:20px; border-radius:10px; border:1px solid #ffd8a8; margin-bottom:25px;}
   table{border-collapse:collapse; width:100%; font-size:12px;}
   th{background:#333; color:white; padding:12px; text-align:left;}
   td{padding:10px; border:1px solid #eee;}
   tr:nth-child(even){background:#fafafa;}
-  .alert-box{background:#e02b2b; color:white; padding:5px 10px; border-radius:5px; font-size:12px; font-weight:bold;}
+  .alert-box{background:#ed2f42; color:white; padding:5px 10px; border-radius:5px; font-size:12px; font-weight:bold;}
 </style>
 </head>
 <body>
 
 <div class="header">
-  <img src="https://images.deliveryhero.io/image/pedidosya/home/logo-peya-rojo.png" alt="PedidosYa" class="logo">
-  <div>
     <h1 style="margin:0; color:#333; font-size: 24px;">Reporte de pedidos rechazados</h1>
-    <p style="margin:2px 0 0 0; color:#666; font-size: 14px;"><b>Hipertiendas Zaglul</b> (ID: 193420) | <span class="alert-box">ACCIÓN REQUERIDA</span></p>
-  </div>
+    <p style="margin:5px 0 0 0; color:#666; font-size: 14px;"><b>Hipertiendas Zaglul</b> (ID: 193420) | <span class="alert-box">ACCIÓN REQUERIDA</span></p>
 </div>
 
 <div class="card">
@@ -31,7 +27,7 @@
 
         <div style="text-align: center; margin: 30px 0;">
           <a href="https://youtube.com/shorts/Z3vJwMMSS6s?si=P6UeOq_wjNj9Tvot" 
-             style="background-color: #e02b2b; color: white; padding: 15px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block;">
+             style="background-color: #ed2f42; color: white; padding: 15px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block;">
              Click acá para ver el video
           </a>
           <p style="font-size: 13px; color: #666; margin-top: 10px;">Mirá este tutorial para gestionar tu stock correctamente</p>
@@ -42,6 +38,7 @@
   <thead>
     <tr>
       <th>Barcode</th>
+      <th>SKU</th>
       <th>Producto</th>
       <th style="text-align:center;">Órdenes involucradas</th>
       <th style="text-align:center;">Unidades rechazadas</th>
@@ -52,122 +49,139 @@
     
       <tr>
         <td>'00849806001206</td>
+        <td>ART012539</td>
         <td>Bebida Alcohólica Four Loko Sandía 12% 473 ml</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">2</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 540</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 540</td>
       </tr>
       <tr>
         <td>'00650240027468</td>
+        <td>ART006250</td>
         <td>Crema Facial Teatrical Aclaradora 200 g</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 287</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 287</td>
       </tr>
       <tr>
         <td>'00781974000622</td>
+        <td>ART023055</td>
         <td>Alimento Para Gato Alimiau Sabor Pescado 3.3 lb</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 285</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 285</td>
       </tr>
       <tr>
         <td>'07461369564528</td>
+        <td>ART008557</td>
         <td>Crema Corporal Jergens Multivitaminas 13.5 oz</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 270</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 270</td>
       </tr>
       <tr>
         <td>'04005808818587</td>
+        <td>ART001145</td>
         <td>Crema Facial Y Corporal Nivea Aclarado Natural 100 ml</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 200</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 200</td>
       </tr>
       <tr>
         <td>'07466479111044</td>
+        <td>ART008028</td>
         <td>Tortillas Maria De Trigo Para Tacos 8 Un</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">2</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 198</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 198</td>
       </tr>
       <tr>
         <td>'00028400016544</td>
+        <td>ART000913</td>
         <td>Snack Doritos Nacho Cheese 255 g</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 190</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 190</td>
       </tr>
       <tr>
         <td>'07461875201030</td>
+        <td>ART006083</td>
         <td>Tocineta Panceta Ahumada Rebanada El Cid 8 oz</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 180</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 180</td>
       </tr>
       <tr>
         <td>'07501006559491</td>
+        <td>ART011823</td>
         <td>Palomitas Act II Canguil Mantequilla Ready To Eat 70 g</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 164</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 164</td>
       </tr>
       <tr>
         <td>'07466077700077</td>
+        <td>ART017620</td>
         <td>Casabe El Guanani Relleno De Guayaba 1 unidad</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 145</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 145</td>
       </tr>
       <tr>
         <td>'08801043022705</td>
+        <td>ART019139</td>
         <td>Nongshim Soon Veggie Ramen 112G</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 130</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 130</td>
       </tr>
       <tr>
         <td>'00816284003213</td>
+        <td>ART010823</td>
         <td>Bolsa Para Congelador Smart Choice 10 Unidades</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">2</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 130</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 130</td>
       </tr>
       <tr>
         <td>'08801043157728</td>
+        <td>ART019140</td>
         <td>Bolsa De Ramen Nongshim Chapagetti Kimchi Shin 140 g</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 125</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 125</td>
       </tr>
       <tr>
         <td>'00781974000615</td>
+        <td>ART023054</td>
         <td>Alimento Para Gato Alimiau Sabor Pescado 1 lb</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 117</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 117</td>
       </tr>
       <tr>
         <td>'07411000342954</td>
+        <td>ART019843</td>
         <td>Mayonesa Hellmann's Light 190 g</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 100</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 100</td>
       </tr>
       <tr>
         <td>'00000078923454</td>
+        <td>ART001163</td>
         <td>Antitranspirante en Roll On Rexona Men V8 50 ml</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 90</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 90</td>
       </tr>
       <tr>
         <td>'00000078924338</td>
+        <td>ART006954</td>
         <td>Desodorante Roll-On Rexona Power 50 ml</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 85</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 85</td>
       </tr>
   </tbody>
 </table>
