@@ -3,9 +3,9 @@
 <meta charset="UTF-8">
 <style>
   body{font-family:'Segoe UI', sans-serif; padding:30px; color:#333; line-height:1.6;}
-  .header{border-bottom:4px solid #F7AD19; padding-bottom:15px; margin-bottom:20px;}
+  .header{border-bottom:4px solid #F7AD19; padding-bottom:15px; margin-bottom:25px;}
   .card{background:#fff4e5; padding:20px; border-radius:10px; border:1px solid #ffd8a8; margin-bottom:25px;}
-  table{border-collapse:collapse; width:100%; font-size:13px;}
+  table{border-collapse:collapse; width:100%; font-size:12px;}
   th{background:#333; color:white; padding:12px; text-align:left;}
   td{padding:10px; border:1px solid #eee;}
   tr:nth-child(even){background:#fafafa;}
@@ -21,121 +21,93 @@
 
 <div class="card">
   <h3 style="margin-top:0; color:#d9480f;">¡Atención! Tu local está rechazando pedidos</h3>
-  <p style="margin-bottom:0;">Detectamos que has perdido ventas debido a <b>falta de stock</b>. Es fundamental que revises la disponibilidad de los siguientes productos en tu plataforma para evitar cancelaciones de pedidos y pérdida de ingresos.</p>
+  <p style="margin-bottom:0;">Detectamos que has perdido ventas debido a <b>falta de stock</b>. Es fundamental que revises la disponibilidad de los siguientes productos para evitar cancelaciones de pedidos y pérdida de ingresos.</p>
 </div>
 
-<h3>Productos que causaron rechazos:</h3>
+
+        <div style="text-align: center; margin: 30px 0;">
+          <a href="https://youtube.com/shorts/Z3vJwMMSS6s?si=P6UeOq_wjNj9Tvot" 
+             style="background-color: #e02b2b; color: white; padding: 15px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block;">
+             Click acá para ver el video
+          </a>
+          <p style="font-size: 13px; color: #666; margin-top: 10px;">Mirá este tutorial para gestionar tu stock correctamente</p>
+        </div>
+
+<h3>Detalle de productos rechazados:</h3>
 <table>
   <thead>
     <tr>
       <th>Barcode</th>
-      <th>Nombre del Producto</th>
-      <th>Pedidos Perdidos</th>
+      <th>Producto</th>
+      <th style="text-align:center;">Órdenes involucradas</th>
+      <th style="text-align:center;">Unidades rechazadas</th>
+      <th style="text-align:right;">Facturación perdida</th>
     </tr>
   </thead>
   <tbody>
     
       <tr>
-        <td>'08445291774353</td>
-        <td>Café Instantáneo Bracafé 12 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">2</td>
-      </tr>
-      <tr>
-        <td>'07791293044224</td>
-        <td>Desodorante Rexona Antitranspirante Odorono 150 ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07730294101819</td>
-        <td>Talco Pédico Xanapie Normal Bolsa Repuesto 180 g</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07730400002771</td>
-        <td>Bidón Agua Salus 6.25 l</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07891008114126</td>
-        <td>Bolsa Bombones Serenata De Amor Garoto 825 g</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07730465004499</td>
-        <td>Café Instantáneo Campo Claro Orgánico 90 g</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07791130963497</td>
-        <td>Jabón Líquido Woolite Especial Black Doy Pack 450 ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07730241080488</td>
-        <td>Canarias Te Negro Sabor Limon X 10 Saquitos</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07891150044616</td>
-        <td>Jabón De Tocador Dove Cremoso Original 6 x 90 g</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
+        <td>'07790520993045</td>
+        <td>Limpiador De Pisos Blem Plastificados Y Flotantes Almendras 800 ml</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$U 345</td>
       </tr>
       <tr>
         <td>'07730219097500</td>
         <td>Toallitas Femeninas Ladysoft Ultra Delgada Seca 4 x 8 Un</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$U 290</td>
       </tr>
       <tr>
-        <td>'01041838924778</td>
-        <td>Cepillo Top Para Brushing Premium 1 Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
+        <td>'07791130963497</td>
+        <td>Jabón Líquido Woolite Especial Black Doy Pack 450 ml</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$U 189</td>
+      </tr>
+      <tr>
+        <td>'07730400002771</td>
+        <td>Bidón Agua Salus 6.25 l</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$U 157</td>
+      </tr>
+      <tr>
+        <td>'07791293044224</td>
+        <td>Desodorante Rexona Antitranspirante Odorono 150 ml</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$U 157</td>
+      </tr>
+      <tr>
+        <td>'07730294101819</td>
+        <td>Talco Pédico Xanapie Normal Bolsa Repuesto 180 g</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$U 108</td>
+      </tr>
+      <tr>
+        <td>'08445291774353</td>
+        <td>Café Instantáneo Bracafé 12 Unidades</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$U 79</td>
       </tr>
       <tr>
         <td>'07730214000062</td>
         <td>Sal Fina Urusal Yodo Fluorada 500 g</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07730105014055</td>
-        <td>Leche Chocolatada Colet 250 ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07730241080020</td>
-        <td>Té Negro Canarias 20 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07896104992906</td>
-        <td>Papel Higiénico Cameratta Doble Hoja 4 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07896104992319</td>
-        <td>Cameratta Papel Cocina 200 Hojas 1 Unidad</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07730215001280</td>
-        <td>Edulcorante Sucralight 100 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07790520993045</td>
-        <td>Limpiador De Pisos Blem Plastificados Y Flotantes Almendras 800 ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07730241080501</td>
-        <td>Té Negro Canarias Sabor Frutos Rojos 10 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$U 56</td>
       </tr>
   </tbody>
 </table>
 
-<p style="margin-top:30px; font-size:12px; color:#999;">
+<p style="margin-top:30px; font-size:11px; color:#999;">
   Lógica aplicada: Reincidencia de rechazos en las últimas 48hs.<br>
-  Fecha del reporte: 2026-05-08
+  Sistema de recepción: Shopper RPS | Fecha del reporte: 2026-05-08
 </p>
 
 </body>
