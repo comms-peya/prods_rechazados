@@ -3,24 +3,20 @@
 <meta charset="UTF-8">
 <style>
   body{font-family:'Segoe UI', sans-serif; padding:30px; color:#333; line-height:1.6;}
-  .header{border-bottom:4px solid #F7AD19; padding-bottom:15px; margin-bottom:25px; display: flex; align-items: center;}
-  .logo{height: 35px; margin-right: 20px;}
+  .header{border-bottom:4px solid #ed2f42; padding-bottom:15px; margin-bottom:25px;}
   .card{background:#fff4e5; padding:20px; border-radius:10px; border:1px solid #ffd8a8; margin-bottom:25px;}
   table{border-collapse:collapse; width:100%; font-size:12px;}
   th{background:#333; color:white; padding:12px; text-align:left;}
   td{padding:10px; border:1px solid #eee;}
   tr:nth-child(even){background:#fafafa;}
-  .alert-box{background:#e02b2b; color:white; padding:5px 10px; border-radius:5px; font-size:12px; font-weight:bold;}
+  .alert-box{background:#ed2f42; color:white; padding:5px 10px; border-radius:5px; font-size:12px; font-weight:bold;}
 </style>
 </head>
 <body>
 
 <div class="header">
-  <img src="https://images.deliveryhero.io/image/pedidosya/home/logo-peya-rojo.png" alt="PedidosYa" class="logo">
-  <div>
     <h1 style="margin:0; color:#333; font-size: 24px;">Reporte de pedidos rechazados</h1>
-    <p style="margin:2px 0 0 0; color:#666; font-size: 14px;"><b>Disa Shop Market</b> (ID: 135854) | <span class="alert-box">ACCIÓN REQUERIDA</span></p>
-  </div>
+    <p style="margin:5px 0 0 0; color:#666; font-size: 14px;"><b>Disa Shop Market</b> (ID: 135854) | <span class="alert-box">ACCIÓN REQUERIDA</span></p>
 </div>
 
 <div class="card">
@@ -31,7 +27,7 @@
 
         <div style="text-align: center; margin: 30px 0;">
           <a href="https://youtube.com/shorts/Z3vJwMMSS6s?si=P6UeOq_wjNj9Tvot" 
-             style="background-color: #e02b2b; color: white; padding: 15px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block;">
+             style="background-color: #ed2f42; color: white; padding: 15px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block;">
              Click acá para ver el video
           </a>
           <p style="font-size: 13px; color: #666; margin-top: 10px;">Mirá este tutorial para gestionar tu stock correctamente</p>
@@ -42,6 +38,7 @@
   <thead>
     <tr>
       <th>Barcode</th>
+      <th>SKU</th>
       <th>Producto</th>
       <th style="text-align:center;">Órdenes involucradas</th>
       <th style="text-align:center;">Unidades rechazadas</th>
@@ -52,45 +49,51 @@
     
       <tr>
         <td>'07730689000031</td>
+        <td>7730689000031</td>
         <td>Postre Helado Principe Humberto 600 g</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$U 690</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$U 690</td>
       </tr>
       <tr>
         <td>'00039800013613</td>
+        <td>00039800013613</td>
         <td>Bateria Energizer Max Alkalina 9V 1 Und</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$U 460</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$U 460</td>
       </tr>
       <tr>
         <td>'07798396410024</td>
+        <td>7798396410024</td>
         <td>Cerveza Japi Ipa 473 ml</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">2</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$U 448</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$U 448</td>
       </tr>
       <tr>
         <td>'07792319064073</td>
+        <td>GU7564</td>
         <td>Vino Blanco Cosecha Tardía 750 ml</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$U 420</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$U 420</td>
       </tr>
       <tr>
         <td>'07730105902581</td>
+        <td>7730105902581</td>
         <td>Helado En Palito Conaprole Sabor Frutilla Y Naranja 60 ml</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">7</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$U 203</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$U 203</td>
       </tr>
       <tr>
         <td>'07730105902703</td>
+        <td>7730105902703</td>
         <td>Helado Palito Frutta Dur/Kiw Conaprole 60 Ml</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$U 52</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$U 52</td>
       </tr>
   </tbody>
 </table>
