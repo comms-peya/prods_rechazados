@@ -3,24 +3,20 @@
 <meta charset="UTF-8">
 <style>
   body{font-family:'Segoe UI', sans-serif; padding:30px; color:#333; line-height:1.6;}
-  .header{border-bottom:4px solid #F7AD19; padding-bottom:15px; margin-bottom:25px; display: flex; align-items: center;}
-  .logo{height: 35px; margin-right: 20px;}
+  .header{border-bottom:4px solid #ed2f42; padding-bottom:15px; margin-bottom:25px;}
   .card{background:#fff4e5; padding:20px; border-radius:10px; border:1px solid #ffd8a8; margin-bottom:25px;}
   table{border-collapse:collapse; width:100%; font-size:12px;}
   th{background:#333; color:white; padding:12px; text-align:left;}
   td{padding:10px; border:1px solid #eee;}
   tr:nth-child(even){background:#fafafa;}
-  .alert-box{background:#e02b2b; color:white; padding:5px 10px; border-radius:5px; font-size:12px; font-weight:bold;}
+  .alert-box{background:#ed2f42; color:white; padding:5px 10px; border-radius:5px; font-size:12px; font-weight:bold;}
 </style>
 </head>
 <body>
 
 <div class="header">
-  <img src="https://images.deliveryhero.io/image/pedidosya/home/logo-peya-rojo.png" alt="PedidosYa" class="logo">
-  <div>
     <h1 style="margin:0; color:#333; font-size: 24px;">Reporte de pedidos rechazados</h1>
-    <p style="margin:2px 0 0 0; color:#666; font-size: 14px;"><b>Súper Tienda La Abeja - San Miguel</b> (ID: 424032) | <span class="alert-box">ACCIÓN REQUERIDA</span></p>
-  </div>
+    <p style="margin:5px 0 0 0; color:#666; font-size: 14px;"><b>Súper Tienda La Abeja - San Miguel</b> (ID: 424032) | <span class="alert-box">ACCIÓN REQUERIDA</span></p>
 </div>
 
 <div class="card">
@@ -31,7 +27,7 @@
 
         <div style="text-align: center; margin: 30px 0;">
           <a href="https://youtube.com/shorts/Z3vJwMMSS6s?si=P6UeOq_wjNj9Tvot" 
-             style="background-color: #e02b2b; color: white; padding: 15px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block;">
+             style="background-color: #ed2f42; color: white; padding: 15px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block;">
              Click acá para ver el video
           </a>
           <p style="font-size: 13px; color: #666; margin-top: 10px;">Mirá este tutorial para gestionar tu stock correctamente</p>
@@ -42,6 +38,7 @@
   <thead>
     <tr>
       <th>Barcode</th>
+      <th>SKU</th>
       <th>Producto</th>
       <th style="text-align:center;">Órdenes involucradas</th>
       <th style="text-align:center;">Unidades rechazadas</th>
@@ -52,115 +49,131 @@
     
       <tr>
         <td>S/N</td>
+        <td>13</td>
         <td>Pechuga De Pollo Sello De Oro Clase A 1 lb</td>
         <td style="text-align:center;">2</td>
         <td style="text-align:center;">9</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 22.05</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 22.05</td>
       </tr>
       <tr>
         <td>'02890200000553</td>
+        <td>VZXM12</td>
         <td>Pechuga De Filetes De Pollo Congelado Sello De Oro Bandeja 1 a 1.15 lb</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">3</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 10.5</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 10.5</td>
       </tr>
       <tr>
         <td>S/N</td>
+        <td>13A</td>
         <td>Entrepierna De Pollo Sello De Oro Clase A 1 lb</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">6</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 8.7</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 8.7</td>
       </tr>
       <tr>
         <td>S/N</td>
+        <td>19</td>
         <td>Costilla De Cerdo 1lb</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">2</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 7.9</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 7.9</td>
       </tr>
       <tr>
         <td>S/N</td>
+        <td>23</td>
         <td>Huezo De Res 1lb</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">3</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 7.5</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 7.5</td>
       </tr>
       <tr>
         <td>S/N</td>
+        <td>17</td>
         <td>Lomo De Cerdo 1lb</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">2</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 7</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 7</td>
       </tr>
       <tr>
         <td>S/N</td>
+        <td>18</td>
         <td>Costilla De Res 1lb</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">2</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 6.9</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 6.9</td>
       </tr>
       <tr>
         <td>S/N</td>
+        <td>22A</td>
         <td>Carne Deshilada 0.5lb</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">2</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 6.1</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 6.1</td>
       </tr>
       <tr>
         <td>'07411900304281</td>
+        <td>4U10CA</td>
         <td>Jamón Virginia De Pavo Fud 290 g</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 3.8</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 3.8</td>
       </tr>
       <tr>
         <td>'07414100251447</td>
+        <td>7414100251447</td>
         <td>Medallones De Pollo Sello De Oro 20 Unidades</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 3.4</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 3.4</td>
       </tr>
       <tr>
         <td>'07411000359938</td>
+        <td>RZC24P</td>
         <td>Detergente En Polvo Xedex Frutos Del Bosque 800 g</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">2</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 2.5</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 2.5</td>
       </tr>
       <tr>
         <td>'07410031460064</td>
+        <td>7410031460064</td>
         <td>Pan De Caja Lido Pullman 550 g</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 1.95</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 1.95</td>
       </tr>
       <tr>
         <td>'07501019030352</td>
+        <td>7501019030352</td>
         <td>Toalla Femenina Saba Confort Manzanilla Regular Con Alas 10 Unidades</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 1.6</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 1.6</td>
       </tr>
       <tr>
         <td>'07441014710104</td>
+        <td>1XRVPY</td>
         <td>Queso La Villita Tipo Americano 8 Rebanadas 136 g</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 1.55</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 1.55</td>
       </tr>
       <tr>
         <td>'07401002002093</td>
+        <td>7401002002093</td>
         <td>Cloro Magia Blanca 1 L</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 1.4</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 1.4</td>
       </tr>
       <tr>
         <td>'07406189002782</td>
+        <td>SN26MA</td>
         <td>Té Frío Del Monte Limón 330 ml</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 0.55</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 0.55</td>
       </tr>
   </tbody>
 </table>
