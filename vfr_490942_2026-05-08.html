@@ -3,9 +3,9 @@
 <meta charset="UTF-8">
 <style>
   body{font-family:'Segoe UI', sans-serif; padding:30px; color:#333; line-height:1.6;}
-  .header{border-bottom:4px solid #F7AD19; padding-bottom:15px; margin-bottom:20px;}
+  .header{border-bottom:4px solid #F7AD19; padding-bottom:15px; margin-bottom:25px;}
   .card{background:#fff4e5; padding:20px; border-radius:10px; border:1px solid #ffd8a8; margin-bottom:25px;}
-  table{border-collapse:collapse; width:100%; font-size:13px;}
+  table{border-collapse:collapse; width:100%; font-size:12px;}
   th{background:#333; color:white; padding:12px; text-align:left;}
   td{padding:10px; border:1px solid #eee;}
   tr:nth-child(even){background:#fafafa;}
@@ -21,101 +21,86 @@
 
 <div class="card">
   <h3 style="margin-top:0; color:#d9480f;">¡Atención! Tu local está rechazando pedidos</h3>
-  <p style="margin-bottom:0;">Detectamos que has perdido ventas debido a <b>falta de stock</b>. Es fundamental que revises la disponibilidad de los siguientes productos en tu plataforma para evitar cancelaciones de pedidos y pérdida de ingresos.</p>
+  <p style="margin-bottom:0;">Detectamos que has perdido ventas debido a <b>falta de stock</b>. Es fundamental que revises la disponibilidad de los siguientes productos para evitar cancelaciones de pedidos y pérdida de ingresos.</p>
 </div>
 
-<h3>Productos que causaron rechazos:</h3>
+
+        <div style="text-align: center; margin: 30px 0;">
+          <a href="https://youtube.com/shorts/Z3vJwMMSS6s?si=P6UeOq_wjNj9Tvot" 
+             style="background-color: #e02b2b; color: white; padding: 15px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block;">
+             Click acá para ver el video
+          </a>
+          <p style="font-size: 13px; color: #666; margin-top: 10px;">Mirá este tutorial para gestionar tu stock correctamente</p>
+        </div>
+
+<h3>Detalle de productos rechazados:</h3>
 <table>
   <thead>
     <tr>
       <th>Barcode</th>
-      <th>Nombre del Producto</th>
-      <th>Pedidos Perdidos</th>
+      <th>Producto</th>
+      <th style="text-align:center;">Órdenes involucradas</th>
+      <th style="text-align:center;">Unidades rechazadas</th>
+      <th style="text-align:right;">Facturación perdida</th>
     </tr>
   </thead>
   <tbody>
     
       <tr>
-        <td>'02940300003135</td>
-        <td>Licor Tres Plumas Seco 200Ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">2</td>
-      </tr>
-      <tr>
-        <td>'02941300004696</td>
-        <td>Licor Tres Plumas Café Al Coñac 200Ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">2</td>
+        <td>'07771609001158</td>
+        <td>Agua Vital Sin Gas 6 L</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:center;">3</td>
+        <td style="text-align:right; font-weight:bold; color:#e02b2b;">Bs. 78</td>
       </tr>
       <tr>
         <td>S/N</td>
         <td>Coca My Torci King Kong 2 (1/2 Cuartilla) 2 oz</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">2</td>
-      </tr>
-      <tr>
-        <td>'00000077716088</td>
-        <td>Gaseosa Coca-Cola 2 L</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07801610001622</td>
-        <td>Bebida Coca-Cola Original 1.5 L</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'00000077767295</td>
-        <td>Aloe Vera Premium 500 Ml.</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:right; font-weight:bold; color:#e02b2b;">Bs. 32</td>
       </tr>
       <tr>
         <td>'07791540053153</td>
         <td>Espumante Frizze Blue Evolution Lata 473 ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'02949900001176</td>
-        <td>12 Pack Cerveza Paceña Pilsener 269 ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07771609001158</td>
-        <td>Agua Vital Sin Gas 6 L</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:right; font-weight:bold; color:#e02b2b;">Bs. 30</td>
       </tr>
       <tr>
         <td>'00000077769435</td>
         <td>Cigarrillos Camel Activate Double Mint Red 20 Unidades</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07771609000656</td>
-        <td>Agua Saborizada Aquarius Pera 2 L</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07898279790431</td>
-        <td>Gomitas Fini Moras 90 g</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>S/N</td>
-        <td>Coca My Torci Lechuza- Media Cuartilla 2 Oz</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
-      </tr>
-      <tr>
-        <td>'07802130002274</td>
-        <td>Cerveza Corona Rubia Botella Pack 6 Unidades 330 ml</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:right; font-weight:bold; color:#e02b2b;">Bs. 27.5</td>
       </tr>
       <tr>
         <td>'07771609002520</td>
         <td>Aquarius Pera 3 L</td>
-        <td style="text-align:center; color:#e02b2b; font-weight:bold;">1</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:right; font-weight:bold; color:#e02b2b;">Bs. 27</td>
+      </tr>
+      <tr>
+        <td>'07771609000656</td>
+        <td>Agua Saborizada Aquarius Pera 2 L</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:right; font-weight:bold; color:#e02b2b;">Bs. 19</td>
+      </tr>
+      <tr>
+        <td>'07801610001622</td>
+        <td>Bebida Coca-Cola Original 1.5 L</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:center;">1</td>
+        <td style="text-align:right; font-weight:bold; color:#e02b2b;">Bs. 14</td>
       </tr>
   </tbody>
 </table>
 
-<p style="margin-top:30px; font-size:12px; color:#999;">
+<p style="margin-top:30px; font-size:11px; color:#999;">
   Lógica aplicada: Reincidencia de rechazos en las últimas 48hs.<br>
-  Fecha del reporte: 2026-05-08
+  Sistema de recepción: Shopper RPS | Fecha del reporte: 2026-05-08
 </p>
 
 </body>
