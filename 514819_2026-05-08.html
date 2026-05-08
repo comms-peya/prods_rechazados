@@ -3,24 +3,20 @@
 <meta charset="UTF-8">
 <style>
   body{font-family:'Segoe UI', sans-serif; padding:30px; color:#333; line-height:1.6;}
-  .header{border-bottom:4px solid #F7AD19; padding-bottom:15px; margin-bottom:25px; display: flex; align-items: center;}
-  .logo{height: 35px; margin-right: 20px;}
+  .header{border-bottom:4px solid #ed2f42; padding-bottom:15px; margin-bottom:25px;}
   .card{background:#fff4e5; padding:20px; border-radius:10px; border:1px solid #ffd8a8; margin-bottom:25px;}
   table{border-collapse:collapse; width:100%; font-size:12px;}
   th{background:#333; color:white; padding:12px; text-align:left;}
   td{padding:10px; border:1px solid #eee;}
   tr:nth-child(even){background:#fafafa;}
-  .alert-box{background:#e02b2b; color:white; padding:5px 10px; border-radius:5px; font-size:12px; font-weight:bold;}
+  .alert-box{background:#ed2f42; color:white; padding:5px 10px; border-radius:5px; font-size:12px; font-weight:bold;}
 </style>
 </head>
 <body>
 
 <div class="header">
-  <img src="https://images.deliveryhero.io/image/pedidosya/home/logo-peya-rojo.png" alt="PedidosYa" class="logo">
-  <div>
     <h1 style="margin:0; color:#333; font-size: 24px;">Reporte de pedidos rechazados</h1>
-    <p style="margin:2px 0 0 0; color:#666; font-size: 14px;"><b>Farmacia Jnepo Privada</b> (ID: 514819) | <span class="alert-box">ACCIÓN REQUERIDA</span></p>
-  </div>
+    <p style="margin:5px 0 0 0; color:#666; font-size: 14px;"><b>Farmacia Jnepo Privada</b> (ID: 514819) | <span class="alert-box">ACCIÓN REQUERIDA</span></p>
 </div>
 
 <div class="card">
@@ -31,7 +27,7 @@
 
         <div style="text-align: center; margin: 30px 0;">
           <a href="https://youtube.com/shorts/Z3vJwMMSS6s?si=P6UeOq_wjNj9Tvot" 
-             style="background-color: #e02b2b; color: white; padding: 15px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block;">
+             style="background-color: #ed2f42; color: white; padding: 15px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block;">
              Click acá para ver el video
           </a>
           <p style="font-size: 13px; color: #666; margin-top: 10px;">Mirá este tutorial para gestionar tu stock correctamente</p>
@@ -42,6 +38,7 @@
   <thead>
     <tr>
       <th>Barcode</th>
+      <th>SKU</th>
       <th>Producto</th>
       <th style="text-align:center;">Órdenes involucradas</th>
       <th style="text-align:center;">Unidades rechazadas</th>
@@ -52,52 +49,59 @@
     
       <tr>
         <td>'07702027435607</td>
+        <td>902115</td>
         <td>Tampones con Aplicador Nosotras Súper 8und</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 239.95</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 239.95</td>
       </tr>
       <tr>
         <td>'07468520337021</td>
+        <td>901725</td>
         <td>Antigripal Mamey Jbe</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 237.71</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 237.71</td>
       </tr>
       <tr>
         <td>'00769229071115</td>
+        <td>955362</td>
         <td>Gel Lubricante Xaikus 15 g</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 197.6</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 197.6</td>
       </tr>
       <tr>
         <td>'07462275401532</td>
+        <td>111074</td>
         <td>Bebida Gatorade Sabor Cool Blue 20 oz</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">2</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 150</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 150</td>
       </tr>
       <tr>
         <td>'07460828502286</td>
+        <td>117016</td>
         <td>Agua Oxigenada Collado 3% Frasco 4 oz</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 125</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 125</td>
       </tr>
       <tr>
         <td>'07702136355292</td>
+        <td>962574</td>
         <td>Esparadrapo Microporoso Piel 5Cmx4.50M / Cureband</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 106.74</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 106.74</td>
       </tr>
       <tr>
         <td>'07702057706906</td>
+        <td>7702057706906</td>
         <td>Tadafilo Mk Tabletas Tecnoquimicas Caja 1 Unidades</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">$ 50.7</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">$ 50.7</td>
       </tr>
   </tbody>
 </table>
