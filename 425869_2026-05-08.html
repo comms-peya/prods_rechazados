@@ -3,24 +3,20 @@
 <meta charset="UTF-8">
 <style>
   body{font-family:'Segoe UI', sans-serif; padding:30px; color:#333; line-height:1.6;}
-  .header{border-bottom:4px solid #F7AD19; padding-bottom:15px; margin-bottom:25px; display: flex; align-items: center;}
-  .logo{height: 35px; margin-right: 20px;}
+  .header{border-bottom:4px solid #ed2f42; padding-bottom:15px; margin-bottom:25px;}
   .card{background:#fff4e5; padding:20px; border-radius:10px; border:1px solid #ffd8a8; margin-bottom:25px;}
   table{border-collapse:collapse; width:100%; font-size:12px;}
   th{background:#333; color:white; padding:12px; text-align:left;}
   td{padding:10px; border:1px solid #eee;}
   tr:nth-child(even){background:#fafafa;}
-  .alert-box{background:#e02b2b; color:white; padding:5px 10px; border-radius:5px; font-size:12px; font-weight:bold;}
+  .alert-box{background:#ed2f42; color:white; padding:5px 10px; border-radius:5px; font-size:12px; font-weight:bold;}
 </style>
 </head>
 <body>
 
 <div class="header">
-  <img src="https://images.deliveryhero.io/image/pedidosya/home/logo-peya-rojo.png" alt="PedidosYa" class="logo">
-  <div>
     <h1 style="margin:0; color:#333; font-size: 24px;">Reporte de pedidos rechazados</h1>
-    <p style="margin:2px 0 0 0; color:#666; font-size: 14px;"><b>Farmacia Kielsa - Altamira</b> (ID: 425869) | <span class="alert-box">ACCIÓN REQUERIDA</span></p>
-  </div>
+    <p style="margin:5px 0 0 0; color:#666; font-size: 14px;"><b>Farmacia Kielsa - Altamira</b> (ID: 425869) | <span class="alert-box">ACCIÓN REQUERIDA</span></p>
 </div>
 
 <div class="card">
@@ -31,7 +27,7 @@
 
         <div style="text-align: center; margin: 30px 0;">
           <a href="https://youtube.com/shorts/Z3vJwMMSS6s?si=P6UeOq_wjNj9Tvot" 
-             style="background-color: #e02b2b; color: white; padding: 15px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block;">
+             style="background-color: #ed2f42; color: white; padding: 15px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block;">
              Click acá para ver el video
           </a>
           <p style="font-size: 13px; color: #666; margin-top: 10px;">Mirá este tutorial para gestionar tu stock correctamente</p>
@@ -42,6 +38,7 @@
   <thead>
     <tr>
       <th>Barcode</th>
+      <th>SKU</th>
       <th>Producto</th>
       <th style="text-align:center;">Órdenes involucradas</th>
       <th style="text-align:center;">Unidades rechazadas</th>
@@ -52,52 +49,59 @@
     
       <tr>
         <td>'07441151900406</td>
+        <td>1110004162</td>
         <td>Mia Abbott 28 Comprimidos</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">C$ 499.74</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">C$ 499.74</td>
       </tr>
       <tr>
         <td>'07441096901254</td>
+        <td>1110016922</td>
         <td>Isoprinosine Solución X30Ml</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">C$ 372.64</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">C$ 372.64</td>
       </tr>
       <tr>
         <td>'07703763996537</td>
+        <td>1110007341</td>
         <td>Amlodipino 5 Mg X 30 Tabs</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">C$ 162.88</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">C$ 162.88</td>
       </tr>
       <tr>
         <td>'07401010900527</td>
+        <td>1110004508</td>
         <td>I.R.S Jarabe Frasco X 120Ml</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">C$ 138.44</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">C$ 138.44</td>
       </tr>
       <tr>
         <td>S/N</td>
+        <td>1110008436H</td>
         <td>Delor Flex 1 Tableta</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">10</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">C$ 133.5</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">C$ 133.5</td>
       </tr>
       <tr>
         <td>'07501019006647</td>
+        <td>2512004242</td>
         <td>Toalla Femenina Saba Ultra Invisible Buenas Noches Con Alas Ultradelgada Nocturna 10 Unidades</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">C$ 78.1</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">C$ 78.1</td>
       </tr>
       <tr>
         <td>'08904240100235</td>
+        <td>1210028493</td>
         <td>Cloruro De Sodio 0.9% Aculife 1000 ml</td>
         <td style="text-align:center;">1</td>
         <td style="text-align:center;">1</td>
-        <td style="text-align:right; font-weight:bold; color:#e02b2b;">C$ 50.02</td>
+        <td style="text-align:right; font-weight:bold; color:#ed2f42;">C$ 50.02</td>
       </tr>
   </tbody>
 </table>
